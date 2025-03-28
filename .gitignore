@@ -104,3 +104,6 @@ dist
 .tern-port
 package/
 reviews.md
+
+# NPMrc file
+.npmrc

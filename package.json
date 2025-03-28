@@ -2,7 +2,7 @@
   "name": "@radicalflexview/ohif-aws-healthimaging",
   "version": "0.12.0",
   "description": "Support reading tree structured metadata",
-  "author": "FlexView Team",
+  "author": "Bill Wallace, Mateus Freira, Radical Imaging, Chris Hafey, Ibrahim Mohamed, Jefferson Tang, FlexView",
   "keywords": [
     "ohif-extension"
   ],
@@ -35,7 +35,8 @@
     "start": "yarn run dev",
     "test": "jest",
     "lint": "npx eslint --fix .",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "publish": "npm publish --registry=https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "@cornerstonejs/dicom-image-loader": "0.4.0",

@@ -88,6 +88,20 @@ yarn cli link-extension $PATH_TO_YOUR_OHIF_AWS_HEALTHIMAGING_DIR
 yarn run dev
 ```
 
+## Deploying to RadicalFlexView
+
+In order to deploy, it will be needed to create a PAT on GitHub and configured on a .npmrc file on the root of this repository with this content:
+```
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
+```
+
+The PAT token must have the `write:packages` scope.
+
+After you have the `.npmrc` file in place, you need to update the version on `package.json` file and run the following command:
+```
+yarn publish
+```
+
 ## Description 
 Support metadata and imaging data loading from AWS HealthImaging
 
@@ -106,7 +120,7 @@ Support metadata and imaging data loading from AWS HealthImaging
 
 
 ## Authors 
-Bill Wallace, Mateus Freira, Radical Imaging, Chris Hafey, Ibrahim Mohamed, Jefferson Tang
+Bill Wallace, Mateus Freira, Radical Imaging, Chris Hafey, Ibrahim Mohamed, Jefferson Tang, FlexView
 
 ## License 
 MIT
