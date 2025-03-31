@@ -1,13 +1,13 @@
 {
   "name": "@radicalflexview/ohif-aws-healthimaging",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Support reading tree structured metadata",
   "author": "Bill Wallace, Mateus Freira, Radical Imaging, Chris Hafey, Ibrahim Mohamed, Jefferson Tang, FlexView",
   "keywords": [
     "ohif-extension"
   ],
   "license": "MIT",
-  "main": "dist/umd/ohif-aws-healthimaging/index.umd.js",
+  "main": "dist/umd/@radicalflexview/ohif-aws-healthimaging/index.umd.js",
   "files": [
     "dist/**",
     "README.md"
