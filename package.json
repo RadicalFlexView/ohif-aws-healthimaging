@@ -12,7 +12,10 @@
     "dist/**",
     "README.md"
   ],
-  "repository": "https://github.com/RadicalFlexView/ohif-aws-healthimaging",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadicalFlexView/ohif-aws-healthimaging.git"
+  },
   "module": "src/index.tsx",
   "engines": {
     "node": ">=14",
